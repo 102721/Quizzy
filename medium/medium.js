@@ -1,60 +1,60 @@
 const questions = [
     { 
-        image: 'vragen/spier.jpg', 
+        image: 'medium afbeeldingen/1.png', 
         question: 'Wat is de belangrijkste spier in het menselijk lichaam?', 
         answers: ['De biceps', 'De hartspier', 'De buikspieren', 'De hamstrings'], 
         correct: 1 
     },
     { 
-        image: 'vragen/slaap.jpg', 
+        image: 'medium afbeeldingen/2.png', 
         question: 'Wat is de aanbevolen dagelijkse hoeveelheid slaap voor volwassenen?', 
         answers: ['4-5 uur', '6-7 uur', '7-9 uur', '10-12 uur'], 
         correct: 2 
     },
     { 
-        image: 'vragen/lever.jpg', 
+        image: 'medium afbeeldingen/3.png', 
         question: 'Welk orgaan filtert gifstoffen uit het bloed?', 
         answers: ['De maag', 'De lever', 'De longen', 'De darmen'], 
         correct: 1 
     },
     { 
-        image: 'vragen/vezels.jpg', 
+        image: 'medium afbeeldingen/4.png', 
         question: 'Wat is een belangrijk effect van vezelrijke voeding?', 
         answers: ['Betere spijsvertering', 'Meer energie', 'Gewichtstoename', 'Meer dorst'], 
         correct: 0 
     },
     { 
-        image: 'vragen/cafeine.jpg', 
+        image: 'medium afbeeldingen/5.png', 
         question: 'Welke drank bevat de meeste cafeïne?', 
         answers: ['Cola', 'Thee', 'Koffie', 'Melk'], 
         correct: 2 
     },
     { 
-        image: 'vragen/uv.jpg', 
+        image: 'medium afbeeldingen/6.png', 
         question: 'Wat is de belangrijkste oorzaak van huidkanker?', 
         answers: ['Te veel vet eten', 'Overmatige blootstelling aan UV-straling', 'Niet genoeg water drinken', 'Te weinig slapen'], 
         correct: 1 
     },
     { 
-        image: 'vragen/ijzer.jpg', 
+        image: 'medium afbeeldingen/7.png', 
         question: 'Wat gebeurt er als je te weinig ijzer binnenkrijgt?', 
         answers: ['Je botten worden zwakker', 'Je krijgt bloedarmoede', 'Je krijgt meer honger', 'Je wordt hyperactief'], 
         correct: 1 
     },
     { 
-        image: 'vragen/nicotine.jpg', 
+        image: 'medium afbeeldingen/8.png', 
         question: 'Welke stof in sigaretten is verslavend?', 
         answers: ['Nicotine', 'Teer', 'Koolstofmonoxide', 'Ammoniak'], 
         correct: 0 
     },
     { 
-        image: 'vragen/afvallen.jpg', 
+        image: 'medium afbeeldingen/9.png', 
         question: 'Wat is een gezonde manier om af te vallen?', 
         answers: ['Crashdiëten', 'Regelmatig sporten en gezond eten', 'Geen koolhydraten eten', 'Alleen sap drinken'], 
         correct: 1 
     },
     { 
-        image: 'vragen/bewegen.jpg', 
+        image: 'medium afbeeldingen/10.png', 
         question: 'Hoeveel minuten per dag wordt aangeraden om matig intensief te bewegen?', 
         answers: ['10 minuten', '30 minuten', '60 minuten', '90 minuten'], 
         correct: 1 
