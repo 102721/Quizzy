@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kahoot-Style Quiz</title>
+    <link rel="stylesheet" href="hard.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="Media/logo.png" alt="Logo">
+        </div>
+        <div class="header-content">
+            <h1>Gezondheidsquiz</h1>
+        </div>
+
+        <div class="menu-container">
+            <div class="burger" id="burger">
+                <div class="line" id="line1"></div>
+                <div class="line" id="line2"></div>
+                <div class="line" id="line3"></div>
+            </div>
+            <div class="dropdown-menu" id="dropdownMenu">
+                <ul>
+                    <li><a href="index.html">Main</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <div class="quiz-container">
+            <div id="question-container">
+                <h2 id="question-text"></h2>
+                <img id="question-image" src="" alt="Vraag afbeelding">
+                <div id="answers-container">
+                    <button class="answer-btn" data-index="0"></button>
+                    <button class="answer-btn" data-index="1"></button>
+                    <button class="answer-btn" data-index="2"></button>
+                    <button class="answer-btn" data-index="3"></button>
+                </div>
+                <div class="nav-buttons">
+                    <button id="prev-question">Vorige</button>
+                    <button id="next-question">Volgende</button>
+                </div>
+            </div>
+            <div id="score-container" class="hidden">
+                <h2>Je score: <span id="score"></span>/10</h2>
+                <button id="restart-quiz">Opnieuw spelen</button>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Quizzy. Luca David Thomas.</p>
+    </footer>
+    
+    <script src="hard.js"></script>
+</body>
+</html>
+
+

@@ -4,135 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz Selectie</title>
-    <link rel="stylesheet" href="styles.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-            background: white;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-        }
+    <link rel="stylesheet" href="main.css">
 
-        header, footer {
-            background: #400099;
-            color: white;
-            padding: 15px;
-            display: flex;
-            align-items: center;
-            position: fixed;
-            width: 100%;
-            z-index: 10;
-        }
-
-        header {
-            top: 0;
-            justify-content: space-between;
-        }
-
-        footer {
-            bottom: 0;
-            justify-content: center;
-            text-align: center;
-        }
-
-        
-        .logo {
-            width: 60px;
-            height: auto;
-            margin-left: 20px;
-        }
-
-        .logo img {
-            width: 60px;  
-            height: auto; 
-            display: block;
-        }
-
-       
-        .header-content {
-            position: absolute;
-            left: 50%;
-            transform: translateX(-50%);
-            text-align: center;
-            font-size: 24px;
-            font-weight: bold;
-        }
-
-        
-       
-
-        .quiz-selectie {
-            background: #400099;
-            color: white;
-            padding: 15px;
-            margin-top: 90px;
-            font-size: 20px;
-            font-weight: bold;
-        }
-
-        main {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            padding: 100px 20px 60px;
-            flex-grow: 1;
-            background: url('Media/pattern.jpg') repeat;
-        }
-
-        .quiz-card {
-            width: 250px;
-            height: 350px;
-            background: white;
-            border: 2px solid black;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-between;
-            padding: 10px;
-            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-        }
-
-        .quiz-card:hover {
-            transform: scale(1.1);
-            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
-        }
-
-        .quiz-card img {
-            width: 100%;
-            height: 150px;
-            object-fit: cover;
-        }
-
-        .quiz-card h2 {
-            margin: 10px 0;
-            font-size: 20px;
-        }
-
-        .quiz-card p {
-            font-size: 14px;
-            color: gray;
-        }
-
-        .quiz-button {
-            display: block;
-            width: 100%;
-            padding: 10px;
-            background: #400099;
-            color: white;
-            text-align: center;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        .quiz-button:hover {
-            background: #333;
-        }
-
-    </style>
 </head>
 <body>
     <header>
@@ -164,7 +37,7 @@
             <img src="Media/dumbbell.jpg" alt="Hard Level">
             <h2>Hard</h2>
             <p>Voor echte experts en quizfanaten!</p>
-            <a href="#" class="quiz-button">Speel Hard</a>
+            <a href="hard.html" class="quiz-button">Speel Hard</a>
         </div>
     </main>
     
