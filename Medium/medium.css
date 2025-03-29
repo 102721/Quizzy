@@ -1,0 +1,222 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header, footer {
+    background: #400099;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+header {
+    top: 0;
+    justify-content: space-between;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+.menu-container {
+    position: fixed;
+    top: 5px;
+    right: 10px;
+    z-index: 1000;
+    background-color: transparent; 
+    padding: 10px;  
+    width: 80px; 
+    height: 80px; 
+}
+
+.burger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.line {
+    height: 5px;
+    width: 100%;
+    background-color: white;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 40px; 
+    right: 0;
+    background-color: #2d006b; 
+    width: 100px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.dropdown-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-menu ul li {
+    padding: 10px;
+}
+
+.dropdown-menu ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.menu-container:hover .burger .line {
+    background-color: #f4f4f4;
+}
+
+.menu-container:hover .burger #line1 {
+    transform: rotate(45deg) translateY(8px);
+}
+
+.menu-container:hover .burger #line2 {
+    opacity: 0;
+}
+
+.menu-container:hover .burger #line3 {
+    transform: rotate(-45deg) translateY(-8px);
+}
+
+.menu-container:hover .dropdown-menu {
+    display: block;
+}
+
+.menu-container:hover .burger {
+    transform: rotate(0deg);
+}
+
+.burger:hover .line {
+    background-color: #f4f4f4;
+}
+
+.burger:hover #line1 {
+    transform: rotate(45deg) translateY(8px);
+}
+
+.burger:hover #line2 {
+    opacity: 0;
+}
+
+.burger:hover #line3 {
+    transform: rotate(-45deg) translateY(-8px);
+}
+
+
+
+
+
+
+footer {
+    bottom: 0;
+    justify-content: center;
+}
+
+.logo img {
+    width: 60px;
+    height: auto;
+}
+
+.header-content {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 20px 60px;
+    flex-grow: 1;
+    background: url('Media/pattern.jpg') repeat;
+}
+
+.quiz-container {
+    background: white;
+    border: 2px solid black;
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+#question-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+#answers-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.answer-btn {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: black;
+    border-radius: 5px;
+}
+
+.answer-btn:nth-child(1) { background-color: red; }
+.answer-btn:nth-child(2) { background-color: blue; }
+.answer-btn:nth-child(3) { background-color: green; }
+.answer-btn:nth-child(4) { background-color: yellow; }
+
+.answer-btn:hover {
+    opacity: 0.8;
+}
+
+.nav-buttons {
+    margin-top: 15px;
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
