@@ -28,23 +28,18 @@ header {
 footer {
     bottom: 0;
     justify-content: center;
-    text-align: center;
 }
-
 
 .logo {
     width: 60px;
-    height: auto;
     margin-left: 20px;
 }
 
-
 .logo img {
-    width: 60px;  
-    height: auto; 
+    width: 60px;
+    height: auto;
     display: block;
 }
-
 
 .header-content {
     position: absolute;
@@ -55,8 +50,22 @@ footer {
     font-weight: bold;
 }
 
+/* Introductie sectie */
+.intro {
+    padding: 100px 20px 20px;
+    background: #f4f4f4;
+    text-align: center;
+}
 
+.intro h2 {
+    font-size: 28px;
+    color: #333;
+}
 
+.intro p {
+    font-size: 18px;
+    color: #666;
+}
 
 .quiz-selectie {
     background: #400099;
@@ -71,7 +80,7 @@ main {
     display: flex;
     justify-content: center;
     gap: 20px;
-    padding: 100px 20px 60px;
+    padding: 60px 20px;
     flex-grow: 1;
     background: url('/Media/pattern.jpg') repeat;
 }
