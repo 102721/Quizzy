@@ -82,7 +82,7 @@ main {
     gap: 20px;
     padding: 60px 20px;
     flex-grow: 1;
-    background: url('/Media/pattern.jpg') repeat;
+    background: url('../Media/pattern.jpg') repeat;
 }
 
 .quiz-card {
